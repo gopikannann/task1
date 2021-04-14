@@ -1,0 +1,40 @@
+NAME: GOPINATH N.k
+MAIL: nk.gopikannan2@gmail.com
+
+1. Difference between HTTP1.1 vs HTTP2
+
+ANS: HTTP/1.1 relies on the transport layer to avoid buffer overflow, each new TCP connection requires a separate flow control mechanism. 
+HTTP/2, however, multiplexes streams within a single TCP connection,and will have to implement flow control in a different manner. 
+     
+     HTTP/2 differs from HTTP/1.1 in many ways, with some features providing greater levels of control that can be used to better optimize 
+web application performance and other features simply improving upon the previous protocol. Now that you have gained a high-level 
+perspective on the variations between the two protocols, you can consider how such factors as multiplexing, stream prioritization, 
+flow control, server push, and compression in HTTP/2 will affect the changing landscape of web development.
+
+2. http version history 
+
+ANS: 1) HTTP/0.9 was proposed in March 1991. 
+     2) HTTP/1.0 In May 1996 he was released the document RFC 1945, which served as the basis for the HTTP / 1.0. 
+     3) HTTP/1.1 The current version, adopted in June 1999. TCP-connection can remain opened after sending a response to the request
+The client now have to send information about the host name. 
+     4) HTTP/2 February 11, 2015 published the final version of the blueprint the next version Protocol. Unlike previous versions, HTTP/2 is a binary protocol. 
+
+3. List 5 difference between Browser JS(console) vs Nodejs 
+
+ANS:   
+  1) Javascript is a programming language that is used for writing scripts on the website. while, NodeJS is a Javascript runtime environment.
+  2) Js is basically used on the client-side And NodeJS is mostly used on the server-side.
+  3) Javascript can only be run in the browsers but NodeJS code can be run outside the browser.
+  4) Javascript is capable enough to add HTML and play with the DOM. While,Nodejs does not have capability to add HTML tags.
+  5) Javascript can run in any browser engine. While ,Nodejs can only run in V8 engine of google chrome.
+
+4. what happens when you type a URL in the address bar in the browser?
+
+ANS:
+  1) You type maps.google.com into the address bar of your browser.
+  2) The browser checks the cache for a DNS record to find the corresponding IP address of maps.google.com
+  3) If the requested URL is not in the cache, ISP’s DNS server initiates a DNS query to find the IP address of the server that hosts maps.google.com
+  4) The browser initiates a TCP connection with the server.
+  5) The browser sends an HTTP request to the webserver.
+  6) The server handles the request and sends back a HTTP response.
+  7) The browser displays the HTML content (for HTML responses, which is the most common).
